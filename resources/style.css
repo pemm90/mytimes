@@ -14,6 +14,9 @@ header{
 header nav{
   padding-left: 700px;
 }
+div{
+  display: block;
+}
 a{
   color:black;
 }
@@ -132,4 +135,27 @@ nav span{
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 500px;
+  height: 300px;
+  width: 100%;
+}
+.footer nav{
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.mytimes{
+  font-family: Georgia;
+  font-size:16px;
+  font-weight: bold;
+  color:white;
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+.copyright{
+  font-size: 12px;
+  display: block;
 }
