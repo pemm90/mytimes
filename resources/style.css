@@ -1,0 +1,35 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+}
+.image{
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+}
+nav{
+  display: flex;
+}
+.container{
+  display: flex;
+  position: static;
+}
+.columnlarge{
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+
+}
+.columnmedium{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+.columnsmall{
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
